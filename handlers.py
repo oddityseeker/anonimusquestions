@@ -80,10 +80,6 @@ async def start_handler(msg: Message):
     await check_and_add_user(msg.from_user.id, msg.from_user.username)
     await msg.answer(text.greeting)
 
-@router.message(StateFilter(None), Command("donate"))
-async def start_handler(msg: Message):
-    await msg.answer("сорян,в боте не всё реализовано, но меня можно поддержать, пока что только тоном и основаными на тоне монетами"
-                     "\n\nUQBI1fJKutRxZCRXRq8hYjtyRkLyMOmwGyXOQQWtE3hreHWc")
 
 
 @router.message(chooser.recipient)
