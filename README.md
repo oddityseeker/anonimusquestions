@@ -1,15 +1,15 @@
 # anonimusquestions
 
 bot for sending anonymous messages 
-## features: 
+## features
 * using tags like $yourword to write to channels
 * bot asynchronous
 * resending all messages to the administrator 
 * logging all events and messages
-## used libraries:
+## used libraries
 * aiogram
 * sqlite3
 * logger
-## tasks:
+## tasks
 - [ ] add the ability to reply to messages
 - [ ] add the ability to send photos, video and audio
