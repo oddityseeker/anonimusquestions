@@ -12,4 +12,4 @@ bot for sending anonymous messages
 * logger
 ## tasks:
 - [ ] add the ability to reply to messages
-- [ ] add the ability to send photos? video and audio
+- [ ] add the ability to send photos, video and audio
